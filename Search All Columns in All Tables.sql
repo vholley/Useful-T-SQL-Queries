@@ -3,4 +3,5 @@ FROM INFORMATION_SCHEMA.COLUMNS
 WHERE COLUMN_NAME LIKE '%%'
 ORDER BY 1
 
---sp_help ""
+-- Use sp_help "<schema>.<table_name>" to show more thorough details about a table.
+-- sp_help ""
